@@ -9,7 +9,7 @@ const Scene = () => {
   return (
     <mesh>
         <cylinderGeometry args={[1,1,1,25,25,true]} />
-        <meshBasicMaterial map={img1} side={three.DoubleSide} />
+        <meshBasicMaterial map={img1 img2} side={three.DoubleSide} />
       </mesh>
   )
 }

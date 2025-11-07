@@ -21,7 +21,7 @@ function App() {
 
           mipmapBlur // Enables or disables mipmap blur.
           intensity={7} // The bloom intensity.
-          luminanceThreshold={0} // luminance threshold. Raise this value to mask out darker elements in the scene.
+          luminanceThreshold={0} // luminance threshold. Raise this value to mask out darker elments in the scene
           luminanceSmoothing={0} // smoothness of the luminance threshold. Range is [0, 1]
         />
         
